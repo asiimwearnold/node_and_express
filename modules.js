@@ -21,3 +21,16 @@ const sayHi = (name) =>
 // in order to share the variables to other parts of the project we can use the following
 
 module.exports={Name, Name2}
+
+// working with objects and arrays
+
+const person = {
+    name: "john poul",
+    email: "johnpoul@gmail.com ",
+    telNo: 0705
+}
+module.exports.personInfo = person
+
+// working with arrays
+
+module.exports.items=[item1, item2]
